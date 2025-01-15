@@ -61,7 +61,7 @@ const TestInformationSection: React.FC = () => {
                   checked={checkedStatements.includes(statement.id)}
                   onChange={() => handleCheckboxChange(statement.id)}
                   name={`statement-${statement.id}`}
-                  color='white'
+                  color='primary'
                   sx={{
                   }}
 
